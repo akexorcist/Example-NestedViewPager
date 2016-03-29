@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.akexorcist.myapplication.MainActivity">
+
+    <com.akexorcist.myapplication.NonSwipeableViewPager
+        android:id="@+id/vp_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/layout_menu"
+        android:layout_alignParentTop="true" />
+
+    <LinearLayout
+        android:id="@+id/layout_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        android:padding="5dp">
+
+        <Button
+            android:id="@+id/btn_p1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="P1" />
+
+        <Button
+            android:id="@+id/btn_p2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="P2" />
+
+        <Button
+            android:id="@+id/btn_p3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="P3" />
+
+        <Button
+            android:id="@+id/btn_p4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="P5" />
+
+        <Button
+            android:id="@+id/btn_p5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="P8" />
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryLight"
+    tools:context="com.akexorcist.myapplication.P2S2Fragment">
+
+    <TextView
+        android:id="@+id/tv_screen_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:freezesText="true"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+</FrameLayout>
